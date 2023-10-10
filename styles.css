@@ -1,0 +1,61 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the navigation bar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9d0505;
+}
+
+li.navitem {
+    float: left;
+}
+
+li.navitem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+li.navitem a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Style for the content area */
+.content {
+    padding: 20px;
+}
+
+/* Style for section headings */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style for paragraphs */
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style for links */
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
